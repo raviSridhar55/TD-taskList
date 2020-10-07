@@ -35,7 +35,7 @@ function getTasks() {
     // Create li element
     const li = document.createElement("li");
     // Add class
-    li.className = "collection-item";
+    li.className = "collection-item black white-text";
     // Create text node and append to li
     li.appendChild(document.createTextNode(task));
     // Create new link element
